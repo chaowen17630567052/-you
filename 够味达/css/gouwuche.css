@@ -1,0 +1,315 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:none;
+    vertical-align:baseline;
+}
+
+img {
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+em{
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+html, body {
+    background: #FFFFFF;
+    font-size: 10px;
+}
+.loadnav {
+    width: 100%;
+    height: 4rem;
+    background: #C7254E;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    margin-bottom: 1.5rem;
+}
+.qBack {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4rem;
+    height: 4rem;
+    background: url(../img/back.png) no-repeat center;
+    background-size: 80% 80%;
+}
+.loadnav span {
+    position: absolute;
+    font-size: 1.6rem;
+    color: white;
+    left: 50%;
+    top: 50%;
+    width: 40%;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 3px;
+    margin: -1rem 0 0 -10%;
+    overflow: hidden;
+}
+.myCoupon {
+    margin-top: -1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.posiTop {
+    padding: 5rem 1rem 0;
+}
+.cha{
+	width: 100%;
+	height: 3rem;
+}
+.cha>img{
+	width: 2rem;
+	height: 2rem;
+	margin-top: -1.5rem;
+}
+.cha>p{
+	font-size: 1.8rem;
+	margin-top: -2.4rem;
+	margin-left: 5rem;
+}
+.cha>span{
+	font-size: 1.8rem;
+	position: absolute;
+	right: 1.0rem;
+	top: 4.5rem;
+}
+.couponContent {
+    /*position: relative;*/
+    padding: 1rem;
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    background: #eee;
+    box-sizing: border-box;
+}
+
+.couponCompany {
+    margin-top: 1rem;
+    position: relative;
+}
+.couponEach {
+    width: 80%;
+    display:flex;
+
+}
+.couponEach img {
+    margin-right: 0.5rem;
+    width: 5.0rem;
+    height: 6.0rem;
+}
+.couponEach nav p {
+    color: #000000;
+    font-size: 1.0rem;
+    line-height: 1rem;
+}
+.couponEach nav span {
+    color: #000000;
+    font-size: 1.0rem;
+}
+
+.comList {
+    width: 100%;
+    background: #fff;
+    padding: 0rem 1rem 0;
+    box-sizing: border-box;
+}
+.comList li {
+    padding: 1rem 0;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #eee;
+    margin-top: 1rem;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.possiImg {
+    position: relative;
+}
+.possiImg img {
+    position: absolute;
+}
+.sheLves,.soldOut {
+    width: 4.5rem;
+    height: 4.5rem;
+    position: absolute;
+    left: 1.75rem;
+    top: 5.75rem;
+    z-index: 3;
+}
+.comPng {
+    width: 6rem;
+    height: 6rem;
+    display: inline-block;
+    border: none 0;
+}
+.comName p {
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+    color: #333;
+    /*控制文字为两行*/
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+}
+.comName {
+    padding-left: 1rem;
+    -moz-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.comPayfor {
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    color: #e6071b;
+    overflow: hidden;
+}
+.comPayfor em {
+    font-size: 1.8rem;
+    color: #e6071b;
+}
+.comPayfor span {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    color: #888;
+    text-decoration:line-through;
+}
+.leightUs {
+    height: 2rem;
+    line-height: 2rem;
+    margin: 0.4rem 0;
+    padding:  0 0.25rem;
+    font-size: 1.2rem;
+    color: #888;
+}
+.leightUs{
+    float: right;
+    /*border: 1px solid #d8d8d8;*/
+    border-radius: 3px;
+}
+.fuck{
+				width: 100%;
+				height: 2rem;
+				margin-left: 0%;
+			}
+			.foot{
+				width: 100%;
+				height: 4rem;
+				border: 1px solid black;
+				position: fixed;
+				bottom: 0rem;
+			}
+			.bbx{
+				width: 67%;
+				height: 2rem;
+				/*border: 1px solid black;*/
+				position: absolute;
+				right: 1rem;
+			}
+.title{
+	width: 8rem;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: right;
+	display: block;
+	font-size: 1.3rem;
+	float: left;
+	color: white;
+}
+.book-pri{
+	width: 23rem;
+	height: 2rem;
+	position: absolute;
+	top: 0rem;
+	right: 1rem;
+}
+.book-pri>li{
+	width: 4rem;
+	height: 2rem;
+	float: left;
+	/*text-align: center;*/
+	line-height: 2rem;
+	font-size: 1.3rem;
+	margin-left: 1rem;
+	margin-top: -0.5rem;
+}
+.m1,.m2,.m3{
+	/*display: inline-block;*/
+	width: 4rem;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 1.3rem;
+	color: red;
+	font-weight: bold;
+	/*float: left;*/
+	/*border: 1px solid black;*/
+	text-align: left;
+}
+#num,#num1{
+	width: 4rem;
+	height: 0.5rem;
+	border: 0.5px solid gainsboro;
+}
+.money{
+	width: 6rem;
+	height: 2rem;
+	/*border: 0.5px solid gainsboro;*/ 
+	border-radius: 1rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 3rem;
+	/*margin-top: 20px;*/
+	/*float: left;*/
+}
+
+.jiesuan{
+	width: 10rem;
+	height: 5rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 0px;
+	right: -7rem;
+}
+.jiesuan>p{
+	width: 200px;
+	height: 20px;
+	color: red;
+	font-size: 12px;
+	float: left;
+}
+
+#jia,#jian,#jia1,#jian1{
+	width: 4rem;
+	height: 2rem;
+	border: 0.5px solid gainsboro;
+	/*text-align: center;*/
+}
+#num,#num1{
+	width: 2rem;
+	height: 2rem;
+	border: 0.5px solid gainsboro;
+}
+.foot{
+	width: 100%;
+    height: 4rem;
+    background: #C7254E;
+    box-shadow: initial;
+    position: fixed;
+    left: 0;
+    bottom: -2rem;
+    z-index: 10;
+    margin-bottom: 1.5rem;
+}
+

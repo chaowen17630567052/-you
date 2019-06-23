@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a {
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+li {
+    list-style: none;
+}
+html, body {
+    background: #eee;
+    font-size: 10px;
+}
+			.loadnav {
+			    width: 100%;
+			    height: 4rem;
+			    background: #e6071b;
+			    position: fixed;
+			    left: 0;
+			    top: 0;
+			    z-index: 10;
+			    margin-bottom: 1.0rem;
+			}
+			.loadnav>p{
+					position: absolute;
+				    left: 22%;
+				    top: 50%;
+				    margin: -1rem 0 0 -20%;
+					color: white;
+					font-size: 1.8rem;
+				}
+			
+			.loadnav span {
+			    color: #fff;
+			    font-size: 1.6rem;
+			    text-align: center;
+			    position: absolute;
+			    left: 50%;
+			    top: 50%;
+			    width: 40%;
+			    margin: -1rem 0 0 -20%;
+			}
+			.myCoupon {
+			    margin-top: -1rem;
+			    width: 100%;
+			    box-sizing: border-box;
+			}
+			.posiTop {
+			    padding: 2rem 0rem 0;
+			}
+			.couponContent {
+    /*position: relative;*/
+    padding: 1rem;
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+}
+.couponCompany {
+    margin-top: 1rem;
+    position: relative;
+}
+.couponEach {
+    width: 100%;
+    display:flex;
+}
+.couponEach nav p {
+    color: #333;
+    font-size: 1.6rem;
+    
+}
+.couponEach nav span {
+    line-height: 1.5rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+.positionLine {
+    margin-top: 1rem;
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: #d8d8d8;
+}
+.positionLine i:first-child {
+    left: -1.5rem;
+    top: -0.5rem;
+}
+.positionLine i:last-child {
+    right: -1.5rem;
+    top: -0.5rem;
+}
+.couponContents {
+    /*position: relative;*/
+    padding: 0.5rem;
+    margin-top: 7rem;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+}
+.couponCompanys {
+    margin-top: 1rem;
+    position: relative;
+}
+.toa{
+	position: absolute;
+	left: 25rem;
+	top: 5.5rem;
+}
+ .alreadyUsed {
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+    color: #b7b7b7;
+    font-size: :;rem;
+    background: #fff;
+    padding: 0.2rem 1rem;
+}

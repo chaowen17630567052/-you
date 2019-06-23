@@ -1,0 +1,663 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:none;
+    vertical-align:baseline;
+}
+
+img {
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+em{
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+html, body {
+    background: #eee;
+    font-size: 10px;
+}
+.loadnav {
+    width: 100%;
+    height: 4rem;
+    background: #C7254E;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 8998;
+    margin-bottom: 1.5rem;
+}
+.loadnav>input{
+	width: 24rem;
+	height: 2rem;
+	/*border: 1px solid darkgray;*/
+	opacity: 0.4;
+	border-radius:10rem;
+	text-align: center;
+	position: relative;
+	left: 40%;
+	top: 40%;
+	margin: -1rem 0 0 -20%;
+}
+.myCoupon {
+    margin-top: -1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.posiTop {
+    padding: 5rem 1rem 0;
+}
+.posiCenter {
+    padding: 0 1rem;
+}
+.couponTop {
+    display: block;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 16px;
+    background: url(../img/pd/cf-4.jpg) repeat;
+}
+.couponContent {
+    position: relative;
+    padding: 1rem;
+    margin-top: 3.5rem;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+}
+.couponBottom {
+    display: block;
+    margin-top: -8px;
+    width: 100%;
+    height: 16px;
+    background: url(../images/border.png) repeat;
+}
+
+.couponCompany {
+    margin-top: 0.6rem;
+    position: relative;
+}
+.couponEach {
+    width: 100%;
+    /*display:flex;*/
+
+}
+.couponEach nav p {
+    color: #333;
+    font-size: 1.6rem;
+}
+.couponEach nav span {
+    line-height: 2rem;
+    color: #666;
+    font-size: 1.6rem;
+}
+.positionLine {
+    margin-top: 1rem;
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: #d8d8d8;
+}
+.positionLine i {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    background: #eee;
+    border-radius: 50%;
+}
+.positionLine i:first-child {
+    left: -1.5rem;
+    top: -0.5rem;
+}
+.positionLine i:last-child {
+    right: -1.5rem;
+    top: -0.5rem;
+}
+.couponNumber {
+    height: 3rem;
+    line-height: 3rem;
+}
+.couponNumber span {
+    display: inline-block;
+    width: 3.5rem;
+    height: 100%;
+    text-align: center;
+    color: #666;
+    font-size: 1.4rem;
+}
+.couponNumber em {
+    color: #e6071b;
+    font-size: 1.6rem;
+}
+.couponEach div {
+         height:36rem;
+         /*border:1px solid red;*/
+         width:25rem;
+         position: relative;
+         left: 20%;
+         top: -9.5rem;
+      }
+.couponEach .div1 .div1-a{
+	width: 100%;
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}  
+.couponEach .div1 .div1-b{
+	width: 100%;
+	height: 5rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div1 .div1-b ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div1 .div1-b ul li{
+	margin-left: 1rem;
+}
+.couponEach .div1 .div1-c{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div1 .div1-c ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div1 .div1-c ul li{
+	margin-left: 1rem;
+	margin-top: -1rem;
+}
+      ul {
+         overflow:hidden;
+         position:fixed;
+         top:4rem;
+         left:1rem;
+         z-index: 99;
+      }
+      li {
+         width:7rem;
+         height:4rem;
+         /*background:#FFFFFF;*/
+         text-align:center;
+         line-height:4rem;
+         color:#000000;
+         ,font-size:1.6rem;
+         cursor:pointer;
+         border-bottom:0.2rem solid #fff;
+      }
+      li.active {
+         width: 7rem;
+         height: 4rem;
+         margin-bottom: 1px;
+         border: 1px solid #3F883E;
+         background: #eee;
+         color: #666;
+      }
+.couponEach .div2 .div1-a{
+	width: 100%;
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}  
+.couponEach .div2 .div1-b{
+	width: 100%;
+	height: 5rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div2 .div1-b ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div2 .div1-b ul li{
+	margin-left: 1rem;
+}
+.couponEach .div2 .div1-c{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div2 .div1-c ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div2 .div1-c ul li{
+	margin-left: 1rem;
+	margin-top: -1rem;
+}
+.couponEach .div3 .div1-a{
+	width: 100%;
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}  
+.couponEach .div3 .div1-b{
+	width: 100%;
+	height: 5rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div3 .div1-b ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div3 .div1-b ul li{
+	margin-left: 1rem;
+}
+.couponEach .div3 .div1-c{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div3 .div1-c ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div3 .div1-c ul li{
+	margin-left: 1rem;
+	margin-top: -1rem;
+}
+.couponEach .div4 .div1-a{
+	width: 100%;
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}  
+.couponEach .div4 .div1-b{
+	width: 100%;
+	height: 5rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div4 .div1-b ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div4 .div1-b ul li{
+	margin-left: 1rem;
+}
+.couponEach .div4 .div1-c{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div4 .div1-c ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div4 .div1-c ul li{
+	margin-left: 1rem;
+	margin-top: -1rem;
+}
+.couponEach .div5 .div1-a{
+	width: 100%;
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}  
+.couponEach .div5 .div1-b{
+	width: 100%;
+	height: 5rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div5 .div1-b ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div5 .div1-b ul li{
+	margin-left: 1rem;
+}
+.couponEach .div5 .div1-c{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div5 .div1-c ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div5 .div1-c ul li{
+	margin-left: 1rem;
+	margin-top: -1rem;
+}
+.couponEach .div6 .div1-a{
+	width: 100%;
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}  
+.couponEach .div6 .div1-b{
+	width: 100%;
+	height: 5rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div6 .div1-b ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div6 .div1-b ul li{
+	margin-left: 1rem;
+}
+.couponEach .div6 .div1-c{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div6 .div1-c ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div6 .div1-c ul li{
+	margin-left: 1rem;
+	margin-top: -1rem;
+}.couponEach .div2 .div1-a{
+	width: 100%;
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}  
+.couponEach .div6 .div1-b{
+	width: 100%;
+	height: 5rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div6 .div1-b ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div6 .div1-b ul li{
+	margin-left: 1rem;
+}
+.couponEach .div6 .div1-c{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div6 .div1-c ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div6 .div1-c ul li{
+	margin-left: 1rem;
+	margin-top: -1rem;
+}
+.couponEach .div7 .div1-a{
+	width: 100%;
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}  
+.couponEach .div7 .div1-b{
+	width: 100%;
+	height: 5rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div7 .div1-b ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div7 .div1-b ul li{
+	margin-left: 1rem;
+}
+.couponEach .div7 .div1-c{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div7 .div1-c ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div7 .div1-c ul li{
+	margin-left: 1rem;
+	margin-top: -1rem;
+}
+.couponEach .div8 .div1-a{
+	width: 100%;
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}  
+.couponEach .div8 .div1-b{
+	width: 100%;
+	height: 5rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div8 .div1-b ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div8 .div1-b ul li{
+	margin-left: 1rem;
+}
+.couponEach .div8 .div1-c{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div8 .div1-c ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div8 .div1-c ul li{
+	margin-left: 1rem;
+	margin-top: -1rem;
+}
+.couponEach .div9 .div1-a{
+	width: 100%;
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}  
+.couponEach .div9 .div1-b{
+	width: 100%;
+	height: 5rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div9 .div1-b ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div9 .div1-b ul li{
+	margin-left: 1rem;
+}
+.couponEach .div9 .div1-c{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div9 .div1-c ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div9 .div1-c ul li{
+	margin-left: 1rem;
+	margin-top: -1rem;
+}
+.couponEach .div10 .div1-a{
+	width: 100%;
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}  
+.couponEach .div10 .div1-b{
+	width: 100%;
+	height: 5rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div10 .div1-b ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div10 .div1-b ul li{
+	margin-left: 1rem;
+}
+.couponEach .div10 .div1-c{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div10 .div1-c ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div10 .div1-c ul li{
+	margin-left: 1rem;
+	margin-top: -1rem;
+}
+.couponEach .div11 .div1-a{
+	width: 100%;
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}  
+.couponEach .div11 .div1-b{
+	width: 100%;
+	height: 5rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div11 .div1-b ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div11 .div1-b ul li{
+	margin-left: 1rem;
+}
+.couponEach .div11 .div1-c{
+	width: 100%;
+	height: 2rem;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 11rem;
+	left: 0rem;
+} 
+.couponEach .div11 .div1-c ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.couponEach .div11 .div1-c ul li{
+	margin-left: 1rem;
+	margin-top: -1rem;
+}
+.foot{
+	width: 100%;
+    height: 4rem;
+    background: #C7254E;
+    box-shadow: initial;
+    position: relative;
+    left: 0;
+    bottom: -2rem;
+    z-index: 9999;
+    margin-bottom: 1.5rem;
+}
+.foot>ul{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.foot>ul>li{
+	
+	margin-left: -0.5rem;
+	margin-top: 0.3rem;
+	font-size: 1.2rem;
+}
